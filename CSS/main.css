@@ -1,0 +1,137 @@
+.maingrid {
+    display: grid;
+    height: 90vh;
+    grid-template-columns: repeat(7, 150px);
+    grid-template-rows: 250px 250px auto 250px;
+    grid-template-areas: 
+    'it1 it2 it3 it4 it5 it6 tright'
+    'tleft it7 it8 it9 it10 it11 it12'
+    'search search search search search search search'
+    'lcinema post1 post2 post3 post4 post5 rcinema';
+    grid-gap: 2%;
+    margin-top: 1%;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.item {
+    height: 250px;
+    width: 160px;
+    border: 2px solid rgb(137, 137, 137);
+}
+.it1 {
+    grid-area: it1;
+}
+.it2 {
+    grid-area: it2;
+}
+.it3 {
+    grid-area: it3;
+}
+.it4 {
+    grid-area: it4;
+}
+.it5 {
+    grid-area: it5;
+}
+.it6 {
+    grid-area: it6;
+}
+.tright {
+   font-size: 33px;
+   text-align: center;
+   align-content: center;
+   background-color: rgba(0, 0, 0, 0.1); 
+   padding: 10px 15px; 
+   border-radius: 6px;
+   width: 100%;
+   justify-self: end;
+
+}
+.it7 {
+    grid-area: it7;
+}
+.it8 {
+    grid-area: it8;
+}
+.it9 {
+    grid-area: it9;
+}
+.it10 {
+    grid-area: it10;
+}
+.it11 {
+    grid-area: it11;
+}
+.it12 {
+    grid-area: it12;
+    justify-self: end;
+}
+.tleft {
+   font-size: 33px;
+   text-align: center;
+   align-content: center;
+   background-color: rgba(0, 0, 0, 0.1); 
+   padding: 10px 15px; 
+   border-radius: 6px;
+   width: 100%;
+ 
+}
+.search {
+    grid-area: search;
+    height: 50px;
+    border-radius: 1px;
+    text-align: center;
+}
+.search:focus {
+    border-color: blue;
+    box-shadow: 0 0 6px blue;
+    outline: none;
+}
+.post1 {
+    grid-area: post1;
+}
+.post2 {
+    grid-area: post2;
+}
+.post3 {
+    grid-area: post3;
+}
+.post4 {
+    grid-area: post4;
+}
+.post5 {
+    grid-area: post5;
+}
+.lcinema {
+    grid-area: lcinema;
+}
+.rcinema {
+    grid-area: rcinema;
+}
+.lcinema {
+   font-size: 33px;
+   text-align: center;
+   align-content: center;
+   background-color: rgba(0, 0, 0, 0.1); 
+   padding: 10px 15px; 
+   border-radius: 6px;
+   width: 100%;
+}
+.rcinema {
+   font-size: 33px;
+   text-align: center;
+   align-content: center;
+   background-color: rgba(0, 0, 0, 0.1); 
+   padding: 10px 15px; 
+   border-radius: 6px;
+   width: 100%;
+   justify-self: end;
+}
+.item img {
+    height: 100%;
+    width: 100%;
+}

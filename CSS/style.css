@@ -1,5 +1,7 @@
 @import url(header.css);
+@import url(main.css);
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
