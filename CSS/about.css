@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* --- ABOUT SECTION --- */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    gap: 60px;
+    padding: 40px 80px;
+    max-width: 1300px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}
+.picblock img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.text {
+    text-align: left;
+    width: 50%;
+    line-height: 1.5;
+}
+
+/* --- MOVIE SECTION (резиновый блок) --- */
+.movie-section {
+  display: flex;
+  flex-wrap: wrap;          /* ✅ перенос для адаптива */
+  align-items: stretch;     /* ✅ одинаковая высота */
+  justify-content: space-between;
+  gap: 2rem;
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.1);
+  max-width: 1200px;
+  width: 90%;               /* ✅ резиновая ширина */
+  margin: 60px auto;
+}
+
+.image-wrap {
+  flex: 1 1 45%;            /* ✅ до 45% контейнера */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-image {
+  width: 100%;
+  height: auto;
+  max-width: 600px;         /* ✅ ограничение на слишком большие экраны */
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.card {
+  flex: 1 1 45%;            /* ✅ текст занимает вторую половину */
+  background: #151922;
+  color: #e7e9ee;
+  border-radius: 16px;
+  padding: 28px;
+  line-height: 1.6;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #0f1530;
+  border: 1px solid #233066;
+  color: #cfe0ff;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #2a3142 30%, #2a3142 70%, transparent);
+  margin: 10px 0 16px 0;
+}
+
+p {
+  margin: 0 0 12px 0;
+}
+
+b {
+  font-weight: 700;
+}
+
+.card p:nth-of-type(3) {
+  border-left: 3px solid #7aa2ff;
+  padding-left: 12px;
+  background: linear-gradient(90deg, rgba(122,162,255,0.08), transparent 60%);
+}
+
+/* --- OTHER SECTIONS --- */
+.search-section,
+.new-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.1);
+  max-width: 1200px;
+  margin: 60px auto;
+  align-items: stretch;
+}
+.search-section img,
+.new-section img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    border-radius: 5%;
+}
