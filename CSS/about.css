@@ -112,7 +112,8 @@ b {
 
 /* --- OTHER SECTIONS --- */
 .search-section,
-.new-section {
+.new-section,
+.last-section {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -126,7 +127,8 @@ b {
   align-items: stretch;
 }
 .search-section img,
-.new-section img {
+.new-section img,
+.last-section img {
     width: 100%;
     height: auto;
     max-width: 700px;

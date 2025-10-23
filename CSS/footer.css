@@ -1,0 +1,70 @@
+/* ===== FOOTER ===== */
+.footer {
+  position: relative;
+  z-index: 1000;
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: "Inter", sans-serif;
+  padding: 40px 5% 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* ===== TOP SECTION ===== */
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* left text, right links */
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* ===== LEFT SIDE ===== */
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo h2 {
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.footer-logo p {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0;
+}
+
+/* ===== RIGHT SIDE ===== */
+.footer-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #000;
+}
+
+/* ===== BOTTOM LINE ===== */
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+}
